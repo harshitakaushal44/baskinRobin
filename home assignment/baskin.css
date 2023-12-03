@@ -1,0 +1,607 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#page1 #nav{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+#nav #nav1 img{
+    height: 30px;
+    width: 30px;
+    margin: 50px;
+}
+#nav #nav2 img{
+    height: 60px;
+    width: 250px;
+}
+#nav #nav3 button{
+    margin-right: 80px;
+    padding: 14px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #e7168c;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+#center{
+    height: 95%;
+    width: 100%;
+    background-image: url(https://baskinrobbinsindia.com/cdn/shop/files/Summer_combo_R1-16_1024x.jpg?v=1685954051);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+} 
+
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+}
+#heading{
+    padding-top: 50px;
+    display: flex; 
+     align-items: center;
+     justify-content: center; 
+     gap: 10px;
+}
+#heading h2{
+    color: #e7168c;
+    font-size: 40px;
+    
+}
+#heading h3{
+    font-size: 40px;
+    
+}
+#parentcontainer{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua;  */
+    padding: 20px 100px 7px 100px;
+    position: relative;
+
+
+}
+#parentcontainer i{
+    position: absolute;
+    font-size: 130px;
+    color: #e7168c;
+    left: 10px;
+    top:40%;
+}
+#parentcontainer #bottomtag1 i{
+
+    position: absolute;
+    font-size: 130px;
+    font-weight:lighter;
+    color: #e7168c;
+    left: 90%;
+    top:40%;
+} 
+#childs{
+     height: 99%; 
+    /* background-color: brown; */
+    display: flex;
+     align-items: center; 
+    gap: 65px;
+    overflow-x: scroll;
+    flex-shrink: 0px;
+
+    
+    
+}
+#childs::-webkit-scrollbar{
+width: 0px;
+    
+}
+#child1 img{
+
+    height: 230px;
+    width: 300px;
+    transition: all ease 0.25s;
+   
+
+}
+#child1 img:hover{
+    scale: 1.2;
+    cursor: pointer;
+    
+}
+#child1 #content h1{
+      text-align: center;
+    
+     
+}
+#child1 #content h1:hover{
+    text-shadow:2px 2px 0px #e7168c;
+    cursor: pointer;
+
+}
+#child1 #content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+#child1  button{
+    font-weight:800 ;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:#e7168c;
+    color: rgba(255, 255, 255, 0.925);
+    margin: 30px 50px 0px 85px;
+    padding: 7px 10px;
+}
+#child1 button:hover{
+    background-color:#f74aacea;
+    color: white;
+    cursor: pointer;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(217deg,rgb(214, 172, 214),rgb(240, 233, 233),rgb(158, 220, 245),white,pink);
+    
+
+}
+#heading2{
+    padding-top: 50px;
+    display: flex; 
+     align-items: center;
+     justify-content: center; 
+     gap: 10px;
+}
+#heading2 h1{
+    color: #e7168c;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#heading2 h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+ #cardholder{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua;   */
+    padding: 20px 100px 7px 100px;
+    position: relative;
+
+}
+
+
+#cards{
+    height: 99%; 
+    /* background-color: brown; */
+    display: flex;
+    align-items: center; 
+    gap: 50px;
+    overflow-x: scroll;
+    flex-shrink: 0px;
+}
+#cards::-webkit-scrollbar{
+    width: 0px;
+    display: none;
+}
+#card1{
+    padding-left: 50px;
+    position: relative;
+    transition: all ease 0.25s;
+}
+
+#card1 img{
+    height: 350px;
+    width: 280px;
+
+}
+#card1 #cardcontent h1{
+    position: absolute;
+    bottom: 40px;
+    left: 83px;
+    font-size: 38px;
+    color: white;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     line-height: 40px; 
+     text-align: center; 
+}
+#card1:hover{
+    scale: 1.08;
+    cursor: pointer;
+}
+#card1 #cardcontent h1:hover{
+    text-shadow:2px 2px red;
+}
+#cardholder i{
+    position: absolute;
+    font-size: 130px;
+    color: #e7168c;
+    left: 10px;
+    top:40%;
+}
+#cardholder #lasttag i{
+    position: absolute;
+    font-size: 130px;
+    font-weight:lighter;
+    color: #e7168c;
+    left: 90%;
+    top:40%;
+
+}
+
+#page4{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(205, 241, 168); */
+}
+#heading3{
+    padding-top: 50px;
+     text-align: center;
+     line-height: 22px;
+}
+#heading3 h1{
+    color: #e7168c;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#heading3 h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#boxholder{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+     margin-top: 10px;
+    padding: 20px 100px 7px 100px;
+    position: relative;
+
+}
+
+
+#boxes{
+    height: 99%; 
+    /* background-color: brown; */
+    display: flex;
+    align-items: center; 
+    gap: 50px;
+    overflow-x: scroll;
+    flex-shrink: 0px;
+}
+#boxes::-webkit-scrollbar{
+    width: 0px;
+    display: none;
+}
+#box1 img{
+    height: 286px;
+    width: 306px;
+
+}
+#box1{
+    transition: all ease 0.25s;
+}
+#box1:hover{
+    scale: 1.2;
+    text-shadow: 2px 2px palevioletred;
+    cursor: pointer;
+}
+#box1 #boxcontent h1{
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   
+}
+#box1  button{
+    font-weight:800 ;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:#e7168c;
+    color: rgba(255, 255, 255, 0.925);
+    margin: 30px 50px 0px 85px;
+    padding: 7px 10px;
+}
+#box1 button:hover{
+    background-color:#f74aacea;
+    color: white;
+    cursor: pointer;
+
+}
+#boxholder i{
+    position: absolute;
+    font-size: 130px;
+    color: #e7168c;
+    left: 10px;
+    top:40%;
+}
+#boxholder #lasttag i{
+    position: absolute;
+    font-size: 130px;
+    font-weight:lighter;
+    color: #e7168c;
+    left: 90%;
+    top:40%;
+
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    /* background-color: coral; */
+}
+#heading4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 8px;
+}
+#heading4 img{
+    height: 35px;
+    width: 70px;
+}
+#heading4 h1{
+    color: #e7168c;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#heading4 h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#container{
+    margin: 10px 100px 10px 100px;
+    height: 80%;
+    width: 84%;
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 25px;
+}
+#container #container1{
+    height: 100%;
+    width: 50%;
+    /* background-color: burlywood; */
+   
+}
+#container #container1 img{
+    height: 50%;
+    width: 100%;
+
+}
+#containercontent1 h2{
+    margin: 20px 10px;
+    font-size: 30px;
+    color: #e7168c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+#containercontent1 p{
+    font-size: 17px;
+    margin: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+#linktag {
+    margin: 20px 10px;
+    font-size: 20px;
+    
+}
+#linktag a{
+    color: #e7168c;
+    text-decoration: none;
+}
+#container #container2{
+    height: 100%;
+    width: 50%;
+    /* background-color:cadetblue; */
+}
+#container #container2 img{
+    height: 50%;
+    width: 100%;
+
+}
+#containercontent2 h2{
+    margin: 20px 10px;
+    font-size: 30px;
+    color: #e7168c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 25px;
+}
+#containercontent2 p{
+    font-size: 19px;
+    margin: 0px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+#linktag {
+    margin: 20px 10px;
+    font-size: 20px;
+    
+}
+#linktag a{
+    color: #e7168c;
+    text-decoration: none;
+}
+
+#page6{
+    height: 100%;
+    width: 100%;
+    /* background-color:#e7168c; */
+}
+#heading5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 20px;
+    gap: 8px;
+}
+#heading5 img{
+    height: 35px;
+    width: 70px;
+}
+#heading5 h1{
+    color: #e7168c;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#bigbox{
+    height: 88%;
+    width: 80%;
+    /* background-color: aliceblue; */
+    margin-left: 130px;
+    margin-top: 50px;
+   
+}
+#bigbox #sboxes1{
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#bigbox #sbox{
+    height: 280px;
+    width: 350px;
+    background-color: whitesmoke;
+    position: relative;
+    overflow: hidden;
+    transition:all ease-in 5s;
+
+   
+}
+#bigbox #sboxes2{
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    width: 100%;
+    /* background-color:blue; */
+}
+#sbox #sboxbottom{
+    height: 280px;
+    width: 350px;
+    background-color: #7E7F7F;
+    position: absolute;
+    bottom: -540px;
+    
+}
+#sboxbottom p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    padding:80px 15px 0px 15px ;
+    text-align: center;
+}
+#sbox:hover  #sboxbottom{
+    top: 0;
+    cursor: pointer;
+}
+#page7{
+    height: 125%;
+    width: 100%;
+    /* background-color:#e7168c; */
+    position: relative;
+}
+#page7 img{
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+   
+}
+#bottomtag {
+    /* height: 100%; */
+    /* width: 100%; */
+    position: absolute;
+    top: 60%;
+    margin-left: 25%;
+
+}
+#bottomtag #btntag{
+    display: flex;
+    gap: 80px;
+}
+#btntag h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btntag3 input{
+    padding: 10px 30px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+#btntag3 button{
+    position: absolute;
+    left: 95%;
+    bottom: 41%;
+    background-color: #e7168c;
+    color: white;
+    padding: 14px 27px;
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 17px;
+}
+#btntag3 button:hover{
+    cursor: pointer;
+    background-color:#bd1976;
+}
+#bottomtag2{
+    width: 100%;
+    /* height: 50%; */
+    position:absolute ;
+    top: 90%;
+}
+#bottomtag2 #bottomline{
+    height: 0%;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+#bottomline h3{
+    font-size: 16px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500
+}
+#bottomline2 i{
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+    font-weight: 400;
+}

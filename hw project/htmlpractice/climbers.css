@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.climb{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn.britannica.com/39/76239-050-DE5FCF36/Climbers-side-Nepali-Mount-Everest.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+h1{
+    text-align: center;
+    text-shadow: 100;
+    color:rgb(19, 2, 34);
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 6%;
+    word-spacing: 10px;
+    font-size: 60px;
+    padding-left: 50px;
+    text-decoration:rgb(11, 12, 12) overline;
+}
+h1:hover{
+    color: rgb(241, 46, 46);
+    text-decoration: green dotted underline;
+    text-shadow: 3px 3px rgba(255, 255, 0, 0.432);
+}
+button{
+    background-color:black;
+    size: 20%;
+    position: absolute;
+    top: 30%;
+    left:45%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 40px;
+    box-shadow:5px 5px blue;
+    font-family: cursive;
+    color: white;
+}
+button:hover{
+    background:linear-gradient(to bottom right,rgb(7, 241, 241),rgb(26, 109, 109),rgb(6, 73, 73));
+    box-shadow: 3px 3px rgb(219, 219, 97);
+}

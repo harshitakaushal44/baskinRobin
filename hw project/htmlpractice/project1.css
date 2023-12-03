@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 80%;
+    width: 15%;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.circle1{
+    height: 25%;
+    width: 75%;
+    border-radius: 50%;
+    background-color: red;
+    margin:40px 20px 20px 20px;
+}
+.circle1:hover{
+    scale: 1.2;
+}
+.circle2{
+    height: 25%;
+    width: 75%;
+    border-radius: 50%;
+    background-color: yellow;
+    margin:40px 20px 20px 20px;
+
+}
+.circle2:hover{
+    scale: 1.2;
+}
+.circle3{
+    height: 25%;
+    width: 75%;
+    border-radius: 50%;
+    background-color: green;
+    margin:40px 20px 20px 20px;
+
+}
+.circle3:hover{
+    scale: 1.2;
+}

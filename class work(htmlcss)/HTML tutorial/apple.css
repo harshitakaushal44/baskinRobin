@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: #434344;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: fixed;
+
+}
+#nav h4{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+#nav i{
+    color: #fff;
+    /* font-size:10px; */
+
+}
+#centre{
+    height: 80%;
+    width: 100%;
+    padding: 50px;
+    /* background-color: #000; */
+    background-image:url(https://www.apple.com/v/home/bc/images/heroes/macbook-air-15/hero_macbook_air_15__x63n8tqcpo2u_mediumtall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#centre h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+#centre h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.link1{
+    text-decoration: none;
+}
+.link2{
+    text-decoration: none;
+}
+#nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    color: #434344;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+.link{
+    text-decoration: none;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#links2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    font-size: 20px;
+}
+#links2>.link1{
+    text-decoration: none;
+}
+#links2>.link2{
+    text-decoration: none;
+}
+
+#centre2{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image:url(https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centre2 h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre2 h3{
+    color: #fff;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+#links2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links2.link1{
+    text-decoration: none;
+}
+#links2.link2{
+    text-decoration: none;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#centre3{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_medium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centre3 h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre3 h3{
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.page4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page4left{
+    height: 100%;
+    width: 50%;
+}
+#page4right{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+#centre4left{ 
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://www.apple.com/in/home/images/promos/why-switch/anjali/promo_switch_to_iphone__dcdfmymgd5ci_small.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+}
+#centre4left h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre4left h3{
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#links3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links3.link1{
+    text-decoration: none;
+}
+#links3.link2{
+    text-decoration: none;
+}
+#centre4right{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image:url(https://www.apple.com/v/home/bc/images/promos/ipad-pro/promo_ipadpro_refresh__evi9utuixwuq_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#centre4right h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre4right h3{
+    color: #fff;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+     position:relative; 
+
+}
+#centre4right img{
+    background-size: 5px;
+    padding-left: 400px;
+    position: absolute;
+    /* margin-top: 5px; */
+    
+
+}
+#links4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links4.link1{
+    text-decoration: none;
+}
+#links4.link2{
+    text-decoration: none;
+}
+.page5{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page5left{
+    height: 100%;
+    width: 50%;
+    background-color: whitesmoke;
+}
+#page5right{
+    height: 100%;
+    width: 50%;
+}
+#centre5left{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/preunidays-header-hero-202306_GEO_IN?wid=804&hei=728&fmt=png-alpha&.v=1685548520689);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+#centre5left h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre5left h3{
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#links5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links5 .link1{
+    text-decoration: none;
+}
+#centre5right{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://www.apple.com/v/home/bc/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#centre5right i{ 
+    color: black;
+    position: absolute;
+    padding-left: 200px;
+    padding-top: 10px;
+    font-size: 25px;
+
+} 
+#centre5right h2{
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre5right h3{
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#links6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links6.link1{
+    text-decoration: none;
+}
+.page6{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page6left{
+    height: 100%;
+    width: 50%;
+}
+#page6right{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+#centre6left{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://www.apple.com/v/mac/home/bu/images/overview/hero/mac_studio__c2wojtx43pw2_small.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+#centre6left h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre6left h3{
+    color: black;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+#links7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px ;
+    padding-top: 15px;
+    font-size: 20px;
+}
+#links7 .link1{
+    text-decoration: none;
+}
+#links7.link2{
+    text-decoration: none;
+}
+#centre6right{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-image: url(https://www.apple.com/in/home/promos/apple-watch-series-8/images/promo_apple_watch_series_8_spring__d9hfvufh7hyu_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#centre6right i{ 
+     color: #fff;
+     position: absolute;
+     padding-left: 200px;
+     padding-top: 10px;
+     font-size: 25px;
+
+} 
+#centre6right h2{
+    position: relative;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#centre6right h3{
+    color: white;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+.page7{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+
+}
+p{
+    font-weight: 100px;
+    font-size: 13px;
+}
+#lists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:100px;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+
+
+

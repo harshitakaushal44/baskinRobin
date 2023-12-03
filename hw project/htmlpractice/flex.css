@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.mainbox{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCLChxOeuIbSUIB1a6cb4N7ZJE06o6yr72cRqK0jupwyhWzRpUridk6P57JS74My5l8Ms&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.box1{
+    height: 300px;
+    width: 200px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/597/362/571/bird-lovely-beautiful-nature-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: 510px;
+    border: 4px solid white;
+    border-radius: 6px;
+    transition: 1.5s;
+}
+.box1:hover{
+    scale: 1.5;
+    border: 6px solid rgb(241, 218, 8);
+    
+}
+.box2{
+    height: 300px;
+    width: 200px;
+    background-image: url(https://www.parttimely.com/wp-content/uploads/2018/10/red-birds-photography.jpg);
+    background-position: center;
+    background-size: 200px;
+    border: 4px solid white;
+    border-radius: 6px;
+    transition: 1.5s;
+
+}
+.box2:hover{
+    scale: 1.5;
+    border: 6px solid rgb(241, 218, 8);
+    
+
+}
+.box3{
+    height: 300px;
+    width: 200px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSSZPLQiWzqEAZFMJrYPA5qdt07Df3-Zukjw&usqp=CAU);
+    background-position: center;
+    background-size: 380px;
+    border: 4px solid white;
+    border-radius: 6px;
+    transition: 1.5s;
+
+}
+.box3:hover{
+    scale: 1.5;
+    border: 6px solid rgb(241, 218, 8);
+    
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    text-align: center;
+    color: whitesmoke;
+    background: linear-gradient(to bottom right, rgb(217, 252, 63),rgb(158, 236, 151),rgb(83, 82, 2));
+    text-shadow: 2px 2px rgb(143, 12, 0);
+    text-decoration: 2px dotted underline whitesmoke;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 50px;
+    transition: 1.5s;
+}
+h1:hover{
+    color: rgb(3, 23, 49);
+    text-shadow:4px 4px black;
+
+}
+button{
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    padding: 5px 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    background-color: orangered;
+    border-color: azure;
+}
+button:hover{
+    background-color: chartreuse;
+    border-color: black;
+}

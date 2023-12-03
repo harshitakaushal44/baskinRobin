@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+ .box{ 
+    position: relative;
+    height: 50%;
+    width: 50%;
+    background-color: palevioletred;
+
+}
+h1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.box1,.box2{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.box1{
+    background-color: blue;
+    bottom: 10%;
+     z-index: 5;  
+}
+.box2{
+    background-color: tomato;
+    top:20%;
+     /* z-index: ;     */
+} 
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container1{
+    background-color: rgb(187, 119, 30);
+}
+.container2{
+    background-color:black;
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    background-color:brown;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+}
+.header{
+    width: 50%;
+    height: 10%;
+    background-color: aqua;
+    position: sticky;
+    top: 60%;
+}

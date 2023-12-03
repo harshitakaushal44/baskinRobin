@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+     transform: translate(200px,100px);  
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: rotate(40deg) translate(100px,100px); */
+    /* transform: scale(0.5); */
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    background-image: url(download.png);
+    background-size: cover;
+     /* filter: blur(20px) */
+    /* filter: brightness(70%); */
+}

@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*  tag selector
+    class selector
+    id selector
+*/
+
+/* selector {css property}  */
+
+/* tag selector - selects element by tag name */
+/* h1 {
+    color: red;
+} */
+
+/* ID selector to select (single) element uniquely -  world , wo-rd, wo_rd */
+/* multiple element mein same id use nahi krna */
+/* same element mein multiple id use nahi krna */
+#a {
+    color: red;
+}
+
+#b {
+    color: blue;
+}

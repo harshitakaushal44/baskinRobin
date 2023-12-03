@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#background{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    position: absolute;
+    perspective: 1000px;
+    
+}
+#background video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#background h1{
+    position: absolute;
+    font-size: 150px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    mix-blend-mode: difference ;
+    color: white;
+    line-height: 250px;
+    /* text-shadow: 2px 2px black; */
+    text-decoration: 2px solid black underline;
+}
+#background h3{
+    position: absolute;
+    color: rgba(152, 245, 13, 0.918);
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    mix-blend-mode: difference ;
+    font-size: 100px;
+    text-shadow: 2px 2px white;
+
+}
+#gate1{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    border: 2px solid black;
+    transition: all ease 1s;
+    transform-origin: 0 0;
+    position: relative;
+    z-index: 9;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/77/91/90/1000_F_577919060_FmnSSESq9vWF0QCEG30dnpNTbsDclHlN.jpg);
+    background-position: left;
+    background-size: 1380px;
+    
+}
+#gate2{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    border: 2px solid black;
+    transition: all ease 1s;
+    transform-origin: 100% 100%;
+    position: relative;
+    z-index: 9;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/77/91/90/1000_F_577919060_FmnSSESq9vWF0QCEG30dnpNTbsDclHlN.jpg);
+    background-position: right;
+    background-size: 1380px;
+    
+}
+  
+#background:hover #gate1{
+   
+    transform:rotatey(90deg);
+}
+#background:hover #gate2{
+  
+    transform: rotateY(-90deg);
+}

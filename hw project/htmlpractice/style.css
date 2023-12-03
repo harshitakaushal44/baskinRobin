@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin-top: 10px;
+    padding: 10px;
+    align-items:flex-end;
+    color: aqua;
+    background-color: black;
+}
+p{
+    background-color: rgb(109, 70, 11);
+    margin:20px;
+    color:deeppink;
+}
+/* button{ 
+    color: rgb(43, 226, 119);
+    background-color: rgb(48, 18, 82); 
+/* } */
+body{
+    background-color:rgb(235, 52, 125);
+}
+.a{
+    font-size: 20px;
+    background-color:rgb(17,16,14);
+    color:crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#box{
+     color: aqua; 
+    background-color: blue;
+}
+ .heading{
+    color: red;
+} 
+button{
+    height: 30px;
+    width: 80px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.sentence{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* for giving space between lines */
+     line-height: 30px; /*normal */
+     text-transform: uppercase;   /*lowercase,capitalise,none*/
+}
+.heading1{
+    width: 200px;
+    text-align: center;
+    text-decoration:blue double underline;
+    background-color: azure;
+    color: black;
+    font-weight: bold;
+    /* range=100-900 */
+    /* textdecoration;none(for not underlining) */
+    font-family: serif;
+    font-size: 60px;
+    border: 2px solid black;
+     border-radius: 15px;  
+    /*border radius 50% means "circle " */
+    padding: 50px;
+}
+

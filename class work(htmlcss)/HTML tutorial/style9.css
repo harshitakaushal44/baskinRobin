@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    align-items:center;/* y-axis (cross axis)  */
+    justify-content:space-evenly ;/* x-axis (main axis)*/
+    transition: all ease-in-out;
+
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+#child1:hover{
+    scale: 1.5;
+    background: #000;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: peru;
+
+}

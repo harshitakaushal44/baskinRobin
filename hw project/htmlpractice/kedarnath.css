@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets.cntraveller.in/photos/60ba1486002baf698cc67003/16:9/w_1920,h_1080,c_limit/GettyImages-539105384.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    text-align: center;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px yellow;
+    transition: 1s;
+}
+button{
+    position: absolute;
+    top: 32%;
+    left: 7%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 80);
+    color: aliceblue;
+    box-shadow:5px 5px rgb(233, 233, 171) ;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 2s;
+    
+}
+ 
+button:hover{
+    background-color: rgba(248, 150, 22, 0.973);
+    box-shadow: 5px 5px rgb(184, 23, 50);
+    color: black;
+
+}
+h1:hover{
+    color: chartreuse;
+    text-shadow: 5px 5px black;
+}
+
+
+
